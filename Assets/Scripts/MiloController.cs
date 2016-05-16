@@ -19,4 +19,10 @@ public class MiloController : MonoBehaviour {
 		}
 	
 	}
+	void OnCollisionEnter2D(Collision2D collison){
+		if (collison.collider.gameObject.layer == LayerMask.NameToLayer ("Enemy")) {
+			
+			Application.LoadLevel (Application.loadedLevel);
+		}
+	}
 }
