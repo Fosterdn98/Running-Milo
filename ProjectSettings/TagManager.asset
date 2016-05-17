@@ -14,8 +14,8 @@ TagManager:
   - 
   - 
   - Enemy
-  - 
-  - 
+  - Ground
+  - Background
   - 
   - 
   - 
@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: mountain
+    uniqueID: 3952323603
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
